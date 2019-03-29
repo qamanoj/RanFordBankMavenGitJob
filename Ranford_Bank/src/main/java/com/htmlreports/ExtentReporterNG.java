@@ -12,12 +12,11 @@ import org.testng.ISuiteResult;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.xml.XmlSuite;
-/*import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;*/
+import com.relevantcodes.extentreports.LogStatus;
 
-public class ExtentReporterNG 
-{/*implements IReporter
+public class ExtentReporterNG implements IReporter
 {
 	private ExtentReports extent;
 
@@ -51,8 +50,8 @@ public class ExtentReporterNG
 			{
 				test = extent.startTest(result.getMethod().getMethodName());
 
-				test.getTest(). = getTime(result.getStartMillis());
-                test.getTest().endedTime = getTime(result.getEndMillis());
+				/*test.getTest(). = getTime(result.getStartMillis());
+                test.getTest().endedTime = getTime(result.getEndMillis());*/
 
 				for (String group : result.getMethod().getGroups())
 					test.assignCategory(group);
@@ -74,5 +73,5 @@ public class ExtentReporterNG
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();        
-	}*/
+	}
 }
