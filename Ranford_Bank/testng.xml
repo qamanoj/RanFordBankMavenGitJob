@@ -31,9 +31,8 @@
 					<include name="Login_Verify" />
 					<include name="Roles_Verify" />
 					<include name="verifyroleswrite" />
-					<include name="Employee_Verify" />
-					<include name="verifyemployeewrite" />
-					<include name="" />
+					<!-- <include name="Employee_Verify" />
+					<include name="verifyemployeewrite" /> -->
 				</methods>
 			</class>
 		</classes>
