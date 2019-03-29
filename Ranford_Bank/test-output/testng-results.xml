@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Test is failed for the branch creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is passed for the branch creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the branch creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the branch creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the role creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the role creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the role creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the employee creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the employee creation]]>
+    </line>
+    <line>
+      <![CDATA[Test is failed for the employee creation]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="195080" started-at="2019-03-17T17:54:02Z" finished-at="2019-03-17T17:57:17Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="98860" started-at="2019-03-17T17:54:02Z" finished-at="2019-03-17T17:55:41Z">
+      <class name="com.pagelibrary.ranford.TestExecution">
+        <test-method status="PASS" signature="Lunch_Verify(java.lang.String)[pri:0, instance:com.pagelibrary.ranford.TestExecution@3abbfa04]" name="Lunch_Verify" is-config="true" duration-ms="68458" started-at="2019-03-17T23:24:02Z" finished-at="2019-03-17T23:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch_Verify -->
+        <test-method status="PASS" signature="Login_Verify()[pri:0, instance:com.pagelibrary.ranford.TestExecution@3abbfa04]" name="Login_Verify" duration-ms="6078" started-at="2019-03-17T23:25:11Z" finished-at="2019-03-17T23:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Verify -->
+        <test-method status="PASS" signature="Branches_Verify()[pri:1, instance:com.pagelibrary.ranford.TestExecution@3abbfa04]" name="Branches_Verify" duration-ms="204" started-at="2019-03-17T23:25:17Z" finished-at="2019-03-17T23:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Branches_Verify -->
+        <test-method status="PASS" signature="verifybranchwrite()[pri:2, instance:com.pagelibrary.ranford.TestExecution@3abbfa04]" name="verifybranchwrite" duration-ms="24040" started-at="2019-03-17T23:25:17Z" finished-at="2019-03-17T23:25:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is failed for the branch creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is passed for the branch creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the branch creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the branch creation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybranchwrite -->
+      </class> <!-- com.pagelibrary.ranford.TestExecution -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="96033" started-at="2019-03-17T17:55:41Z" finished-at="2019-03-17T17:57:17Z">
+      <class name="com.pagelibrary.ranford.TestExecution">
+        <test-method status="PASS" signature="Lunch_Verify(java.lang.String)[pri:0, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="Lunch_Verify" is-config="true" duration-ms="46833" started-at="2019-03-17T23:25:41Z" finished-at="2019-03-17T23:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch_Verify -->
+        <test-method status="PASS" signature="Login_Verify()[pri:0, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="Login_Verify" duration-ms="12365" started-at="2019-03-17T23:26:28Z" finished-at="2019-03-17T23:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Verify -->
+        <test-method status="PASS" signature="Roles_Verify()[pri:4, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="Roles_Verify" duration-ms="2767" started-at="2019-03-17T23:26:41Z" finished-at="2019-03-17T23:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Roles_Verify -->
+        <test-method status="PASS" signature="verifyroleswrite()[pri:5, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="verifyroleswrite" duration-ms="12895" started-at="2019-03-17T23:26:43Z" finished-at="2019-03-17T23:26:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is failed for the role creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the role creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the role creation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyroleswrite -->
+        <test-method status="PASS" signature="Employee_Verify()[pri:6, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="Employee_Verify" duration-ms="2277" started-at="2019-03-17T23:26:56Z" finished-at="2019-03-17T23:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_Verify -->
+        <test-method status="PASS" signature="verifyemployeewrite()[pri:7, instance:com.pagelibrary.ranford.TestExecution@490ab905]" name="verifyemployeewrite" duration-ms="18886" started-at="2019-03-17T23:26:58Z" finished-at="2019-03-17T23:27:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is failed for the employee creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the employee creation]]>
+            </line>
+            <line>
+              <![CDATA[Test is failed for the employee creation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyemployeewrite -->
+      </class> <!-- com.pagelibrary.ranford.TestExecution -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
